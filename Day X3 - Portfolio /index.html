@@ -157,20 +157,26 @@
     <section class="Contact" id="Contact">
         <h2 class="heading">Contact <span>Me..!!</span></h2>
 
-        <!-- <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Enter Your Name">
-                <input type="email" placeholder="Email Address ">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Enter Mobile Number">
-                <input type="text" placeholder="Email Subject ">
-            </div>
-            <div class="input-box">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                <input type="Submit" value="Send Message" class="btn">
-            </div>
-        </form> -->
+        <form>
+            <label for="name" place>Name:</label>
+            <input type="text" placeholder="Enter Your name" name="name" required>
+    
+            <label for="surname">Surname:</label>
+            <input type="text" placeholder="Enter Your Surname " name="surname" required>
+    
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" placeholder="Enter Your Mobile Number" name="mobile" pattern="[0-9]{10}" required>
+            <small>Enter a 10-digit mobile number.</small>
+    
+            <label for="gmail">Gmail Address:</label>
+            <input type="email" placeholder="Enter Your Gmail" name="gmail" required>
+    
+            <label for="subject">Subject:</label>
+            <textarea id="subject" placeholder="Enter Your Subject" rows="4" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    
 
     </section>
 
