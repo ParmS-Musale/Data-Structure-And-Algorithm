@@ -291,45 +291,39 @@ span{
     color: var(--second-bg-color);
 }
 
-.Contact h2{
-    margin-bottom: 3rem;
+form {
+    background-color:var(--bg-color)
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.Contact-form{
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
-.Contact form .input-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.Contact-form .input-box input,
-.Contact-form textarea{
+input, textarea {
     width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    background: var(--second-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-.Contact-form .input-box input{
-    width: 49%;
-}
-
-.Contact-form textarea{
-    resize: none;
-}
-
-.Contact-form .btn{
-    margin-top: 2rem;
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 .footer{
