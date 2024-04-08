@@ -36,7 +36,7 @@ public class Pattern1 {
                  System.out.print(ch);
                  ch++; 
              }
-             System.out.println();    
+             System.out.println(); 
          }
 
     }
