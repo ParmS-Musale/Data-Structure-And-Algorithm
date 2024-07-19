@@ -28,7 +28,8 @@ public class Pattern1 {
         //  }
             
         // for the printing charactar in line
-
+        // just adding c coomment
+        
          int n =4;
          char ch ='A';
          for (int line=1; line<=n; line++){
