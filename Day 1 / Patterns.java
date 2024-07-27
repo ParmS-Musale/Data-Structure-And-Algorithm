@@ -28,8 +28,6 @@ public class Pattern1 {
         //  }
             
         // for the printing charactar in line
-        // just adding c coomment
-        // just comment
         
          int n =4;
          char ch ='A';
