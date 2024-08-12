@@ -28,5 +28,5 @@ public class BitManiPulatioon {
         //  System.out.println(getithbit(10, 2));
         System.out.println(clearbit(10, 1));
     }
-     just random edit
+     just random edi//another just random edit
 }
