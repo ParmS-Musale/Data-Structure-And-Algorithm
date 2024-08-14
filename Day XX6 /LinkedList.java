@@ -250,3 +250,5 @@ public class LinkedList {
 
     }
 }
+// Making Day Better
+// Stay Strong
