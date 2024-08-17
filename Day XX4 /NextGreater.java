@@ -27,3 +27,5 @@ public class NextGreater {
         System.out.println();
     }
 }
+
+// Always Stay Strong
